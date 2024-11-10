@@ -5,5 +5,5 @@
 	"minAppVersion": "0.15.0",
 	"description": "Automaticaly links Words in a file to the Corresponding file",
 	"author": "069Chris",
-	"isDesktopOnly": false
+	"isDesktopOnly": true
 }
