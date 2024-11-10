@@ -1,15 +1,7 @@
 import {
-	App,
-	Editor,
-	FileSystemAdapter,
-	MarkdownView,
-	Modal,
 	Notice,
 	Plugin,
-	PluginSettingTab,
-	Setting,
 	TFile,
-	Vault,
 } from "obsidian";
 
 export default class AutoLinkPlugin extends Plugin {
