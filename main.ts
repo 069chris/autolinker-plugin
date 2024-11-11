@@ -9,13 +9,11 @@ export default class AutoLinkPlugin extends Plugin {
 		this.addCommand({
 			id: "auto-link-words",
 			name: "Auto-link Words from open file to Existing Files",
-			hotkeys: [],
 			callback: () => this.autoLinkWords(this.getActiveFile()),
 		});
 		this.addCommand({
 			id: "auto-link-files",
 			name: "Auto-link files to each other",
-			hotkeys: [],
 			callback: () => this.linkAllFiles(),
 		});
 	}
